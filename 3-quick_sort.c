@@ -49,9 +49,9 @@ return (i + 1);
  *@size: size array
  */
 
-void quickSort(int *array, size_t low, size_t high, size_t size)
+void quickSort(int *array, ssize_t low, ssize_t high, size_t size)
 {
-size_t t;
+ssize_t t;
 
 if (low < high)
 {
