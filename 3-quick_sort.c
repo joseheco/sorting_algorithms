@@ -42,11 +42,11 @@ return (i + 1);
 }
 
 /**
- *quickSort - sort an array
- *@array: array
- *@low: lowest
- *@high: highest
- *@size: size
+ *quickSort - sort an array partition
+ *@array: array been sorted
+ *@low: lowest index partition
+ *@high: highest index partition
+ *@size: size array
  */
 
 void quickSort(int *array, size_t low, size_t high, size_t size)
@@ -62,9 +62,9 @@ quickSort(array, t + 1, high, size);
 }
 
 /**
- *quick_sort - sorts an array
- *@array: array
- *@size: array
+ *quick_sort - sorts an array quick sort algorithm
+ *@array: array be sorted
+ *@size: array size
  */
 
 void quick_sort(int *array, size_t size)
